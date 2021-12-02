@@ -1,0 +1,11 @@
+To Do List
+
+- Entity Relationship diagram
+
+- Relational DB
+- Implement and populate database
+    - Making sure we have correctly identified primary and foreign keys 
+    - BCNF
+
+- PHP frontend /HTML 
+    - SQL statements
