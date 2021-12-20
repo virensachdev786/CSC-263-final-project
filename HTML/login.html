@@ -1,28 +1,33 @@
-<!DOCTYPE html>   
-<html>   
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">  
-<title> Login Page </title>  
+<!DOCTYPE html>
+<html>
 
-</head>    
-<body>    
-    <center> <h1>Login Screen</h1> </center>   
-    <form>  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Page </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <div class="loginbox">
+                  <!-- Log In Form -->
+                  <center> <h1>Login Screen</h1> </center>
+                  
+                  <form action="index.php" method="GET">
+                  <img src="src/avatar.png" class="avatar">
+
+
+                  <p>Username: </p>   
+                      <input type="text" class="form-control" placeholder="Enter Username" name="username" required>
 
         
-        <div class="container">   
-            <label>Username : </label>   
-            
-            <form action="index.php" method="GET">
-            <input type="text" placeholder="Enter Username" name="username" required>  
-            <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="loginPassword" required>  
-            <button type="submit">Login</button> 
-            
-            <h4><a href=signup.html>Don't have an account yet? Sign Up!</Address></a></h4>
-        </form>
- 
-        </div>   
-    </form>     
-</body>     
-</html>  
+                      <p>Password: </p>   
+                      <input type="password" class="form-control" placeholder="Enter Password" name="loginPassword" required>
+    
+                      <button  type="submit">Sign in</button><br>
+                      <a href="signup.html">Don't have an account yet? Sign Up!</a><br>
+                  
+
+                  </form>
+                </div>
+  </body>
+</html>
