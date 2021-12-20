@@ -1,11 +1,17 @@
+-- LINK FOR System design: 
+-- https://miro.com/app/board/uXjVOdvD_i4=/?invite_link_id=628318640323
+
 To Do List
 
-- Entity Relationship diagram
+- Entity Relationship diagram (done)
+- Relational DB (Done)
+- Implement and populate database (Pending)
+- Making sure we have correctly identified primary and foreign keys (Done) 
+- BCNF (Done)
 
-- Relational DB
-- Implement and populate database
-    - Making sure we have correctly identified primary and foreign keys 
-    - BCNF
+- DB design with normalisation (Done)
+- SQL create, insert, select, update, delete (Pending)
 
-- PHP frontend /HTML 
-    - SQL statements
+- HTML/CSS frontend (In process)
+
+- PHP backend (Pending)

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		HTML Modify Incident State
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<h1>Update the Incident's State and Data</h2>
+		<ul id="nav">
+			<li>
+				<h4><a href=adminUI.html>Return to Menu</Address></a></h4>
+			</li>
+			   
+			<!-- The Form data is sent with the HTTP Post Metod.-->
+			<form method="post" action="index.php">
+
+                <label for="IncidentNum">Number of Incident:</label><br>
+                <input type= "text" name = "IncidentNum"><br>
+
+				<label for="firstName">First Name:</label><br>
+				<input type= "text" name = "firstName" value= ""><br>
+		
+				<label for="lastName">Last Name:</label><br>
+				<input type= "text" name = "lastName" value= ""><br>
+		
+				<label for="date">Date of Incident:</label><br>
+				<input type= "date" name = "date" value=""><br>
+		
+				<label for="type">Type of Incident:</label><br>
+				<input type= "text" name = "type" value= ""><br>
+		
+				<label for="comment">Comments:</label><br>
+				<input type= "text" name = "comment" value= ""><br>
+				
+            
+                <label for="state">Updated Incident State:</label><br>
+            <input type= "text" name = "state" value= ""><br><br>
+
+
+        <input type="submit" value = "Update Incident's State">
+        </form>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		HTML Reprting an Incident
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<h1>Report a New Incident</h2>
+		<ul id="nav">
+		
+			<li>
+				<h4><a href=adminUI.html>Return to Menu</Address></a></h4>
+			</li>
+			   
+			<!-- The Form data is sent with the HTTP Post Metod.-->
+			<form method="post" action="index.php">
+				<label for="Ip">IP Address:</label><br>
+            <input type= "text" name = "Ip" value= ""><br>
+
+        <label for="firstName">First Name:</label><br>
+        <input type= "text" name = "firstName" value= ""><br>
+
+		<label for="lastName">Last Name:</label><br>
+        <input type= "text" name = "lastName" value= ""><br>
+
+		<label for="date">Date of Incident:</label><br>
+        <input type= "date" name = "date" value=""><br>
+
+		<label for="type">Type of Incident:</label><br>
+        <input type= "text" name = "type" value= ""><br>
+
+		<label for="comment">Comments:</label><br>
+        <input type= "text" name = "comment" value= ""><br>
+		
+		<label for="state">State of the Incident:</label><br>
+        <input type= "text" name = "state" value=""><br><br>
+
+
+        <input type="submit" value = "Report Incident">
+        </form>
+        </ul>
+    </body>
+</html>
